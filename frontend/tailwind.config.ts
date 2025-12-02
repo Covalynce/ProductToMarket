@@ -1,0 +1,2 @@
+import type {Config} from 'tailwindcss';
+export default {content:['./src/**/*.{js,ts,jsx,tsx,mdx}'],theme:{extend:{fontFamily:{sans:['var(--font-inter)'],brand:['var(--font-space)'],mono:['var(--font-mono)']},colors:{obsidian:'#0B0C10',gunmetal:'#1F2833',neon:'#66FCF1',neonhov:'#45A29E',muted: '#C5C6C7'}}},plugins:[]}
